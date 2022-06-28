@@ -1,0 +1,181 @@
+:root {
+    --color-text-navMenu: #E9E9E9;
+    --color-white: #fff;
+
+    --mb8: 8rem;
+}
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 144rem;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.block {
+    margin-bottom: var(--mb8);
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 76.2rem;
+    
+}
+.header {
+    background-image: url('../img/Walden_Landing_Video_-_Desktop-High-96k_updated_compressed\ 1.png');
+    background-size: cover;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav--menu  {
+   display: flex;
+   gap: 4rem;
+}
+
+.nav--link {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: var(--color-text-navMenu);
+}
+.circle {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--color-white);
+    border-radius: 50%;
+}
+/* NAV BUTTON */
+.header--btn {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    border: none;
+    border: 1px solid var(--color-white);
+    border-radius: 5rem;
+    background-color: transparent;
+    color: var(--color-text-navMenu);
+}
+
+
+/* SECTION #1 TOOLS  */
+
+.tools__slider > img {
+    max-width: 38.6rem;
+    object-fit: cover;
+}
+
+.tools__slider {
+    margin-bottom: var(--mb8);
+    display: flex;
+    gap: 3.6rem;
+    overflow: auto;
+}
+
+.title > p {
+    padding: 0 22.8rem 4.5rem;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+/* SECTION #2 GONG  */
+
+.gong {
+    margin-bottom: var(--mb8);
+    background-image: url('../img/gong-teaser-2x_min_a8270c67-997a-43a9-b3f9-6438829a7422\ 1.png');
+    background-size: cover;
+    align-items: center;
+}
+
+.gong__text {
+    text-align: center;
+     color: var(--color-text-navMenu);
+}
+
+.gong__text--title {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.gong__text--subtitle {
+    font-size: 1.4rem;
+}
+
+/* SECTION #3 CUSHIONS */
+
+.cushions {
+    /* margin-bottom: var(--mb8); */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cushions__slider {
+    display: flex;
+    justify-content: center;
+    gap: 3.6rem;
+    overflow: auto;
+}
+.slider__img {
+    max-width: 38.6rem;
+    object-fit: cover;
+}
+.slider__img > p {
+    margin: 2rem;
+    padding: 3rem;
+    font-size: 1.4rem;
+    background-color: #fff;
+    border-radius: 2.5rem;
+    transform: translateY(-8rem);
+}
+
+/* SECTION #4 BRANDS */
+
+.brands {
+    margin-bottom: var(--mb8);
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.brands__top, .brands__bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top--box, .bottom--box{
+    max-width: 22.5rem;
+    text-align: center;
+}
