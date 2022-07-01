@@ -4,17 +4,15 @@ const circle = document.querySelector('.circle');
 const sound = document.querySelector('#sound');
 const btn = document.querySelectorAll('.btn');
 
-circle.addEventListener('click', e => {
+circle.addEventListener('click touchstart', e => {
   e.preventDefault();
   burgerMenu.classList.toggle('active');
+  return false;
 });
 
 burgerlink.forEach(n =>
-  n.addEventListener('click', () => {
+  n.addEventListener('click touchstart', () => {
     burgerMenu.classList.remove('active');
+    return false;
   })
 );
-
-
-
-    

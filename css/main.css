@@ -49,9 +49,14 @@ a {
   height: 76.2rem;
 }
 .header {
-  background: url('../img/Walden_Landing_Video_-_Desktop-High-96k_updated_compressed\ 1.png')
-     center fixed;
+  background: url('../img/Walden_Landing_Video_-_Desktop-High-96k_updated_compressed\ 1.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /* NAV */
@@ -82,9 +87,6 @@ a {
   border-radius: 50%;
   transition: all 1s ease-in-out;
   z-index: 10;
-}
-.circle:hover {
-  transform: scale(1.4);
 }
 
 .active {
@@ -157,9 +159,14 @@ a {
 
 .gong {
   margin-bottom: var(--mb8);
-  background: url('../img/gong-teaser-2x_min_a8270c67-997a-43a9-b3f9-6438829a7422\ 1.png')
-    center fixed;
+  background: url('../img/gong-teaser-2x_min_a8270c67-997a-43a9-b3f9-6438829a7422\ 1.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   align-items: center;
 }
 
@@ -231,8 +238,14 @@ a {
 
 .self {
   margin-bottom: var(--mb8);
-  background: url('../img/Rectangleblue2.png') center fixed;
+  background: url('../img/Rectangleblue2.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   height: 84rem;
   align-items: center;
 }
@@ -342,7 +355,7 @@ a {
   .nav--link {
     font-size: 3rem;
     margin: 1rem;
-     transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
 
   .nav--menu.active {
@@ -356,7 +369,6 @@ a {
   .brands__bottom {
     gap: 3rem;
   }
-  
 }
 @media only screen and (max-width: 400px) {
   html {
