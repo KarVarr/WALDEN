@@ -21,7 +21,9 @@ html {
   font-family: 'Roboto', sans-serif;
   color: #757575;
 }
-
+body {
+  scroll-behavior: smooth;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -49,7 +51,8 @@ a {
   height: 76.2rem;
 }
 .header {
-  background: url('../img/Walden_Landing_Video_-_Desktop-High-96k_updated_compressed\ 1.png') center;
+  background: url('../img/Walden_Landing_Video_-_Desktop-High-96k_updated_compressed\ 1.png')
+    center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -156,7 +159,8 @@ a {
 
 .gong {
   margin-bottom: var(--mb8);
-  background: url('../img/gong-teaser-2x_min_a8270c67-997a-43a9-b3f9-6438829a7422\ 1.png') center;
+  background: url('../img/gong-teaser-2x_min_a8270c67-997a-43a9-b3f9-6438829a7422\ 1.png')
+    center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
