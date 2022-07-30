@@ -102,7 +102,6 @@ a {
   justify-content: center;
   gap: 3rem;
   z-index: 50;
-  
 }
 .circleMenu > a {
   font-size: 3rem;
@@ -346,7 +345,7 @@ a {
     transition: 0.2s ease-in-out;
     flex-direction: column;
     background-color: rgb(237, 102, 102);
-    transition: all .5s cubic-bezier(.63,.21,.42,1.37);
+    transition: all 0.5s cubic-bezier(0.63, 0.21, 0.42, 1.37);
   }
 
   .nav--link {
@@ -367,8 +366,6 @@ a {
     gap: 3rem;
   }
 }
-
-
 
 @media only screen and (max-width: 400px) {
   html {
